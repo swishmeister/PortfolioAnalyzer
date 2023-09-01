@@ -14,7 +14,7 @@ end_date = datetime.today().strftime('%Y-%m-%d')
 
 data = yf.download(tickers, start=start_date, end=end_date)['Adj Close']
 
-# Fetching S&P 500 index data
+# Fetch S&P 500 index data
 sp500 = yf.download('^GSPC', start=start_date, end=end_date)['Adj Close'].pct_change().dropna()
 
 # Calculate daily returns, annual returns, and annual covariance matrix
