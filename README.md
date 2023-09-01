@@ -30,5 +30,6 @@ This tool is designed to perform financial analyses on a set of stocks by compar
 ## How to Use
 1. Run the main.py script.
 2. Input the stock tickers you wish to analyze, separated by spaces.
-3. Wait for the analysis to complete.
-4. Choose whether to save the generated report as a PDF when prompted.
+3. Input the weights for each stock (between 0 and 1)
+4. Wait for the analysis to complete.
+5. Choose whether to save the generated report as a PDF when prompted.
