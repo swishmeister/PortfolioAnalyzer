@@ -7,10 +7,10 @@ This tool is designed to perform financial analyses on a set of stocks by compar
 **Stock Data Retrieval**: Fetches historical adjusted closing prices for user-input stock tickers.<br>
 **Efficient Frontier Visualization**: Uses Monte Carlo simulations to plot the efficient frontier, helping users identify the optimal risk-return trade-off for various portfolio combinations.<br>
 **Financial Metrics Calculation**:<br>
--**Sharpe Ratio**: Identifies the portfolio with the highest risk-adjusted return.<br>
--**Beta**: Measures the portfolio's volatility relative to the S&P 500.<br>
--**Alpha**: Assesses the portfolio's performance against the S&P 500.<br>
--**R-squared**: Measures how closely the portfolio's returns match the S&P 500's returns.<br>
+  -**Sharpe Ratio**: Identifies the portfolio with the highest risk-adjusted return.<br>
+  -**Beta**: Measures the portfolio's volatility relative to the S&P 500.<br>
+  -**Alpha**: Assesses the portfolio's performance against the S&P 500.<br>
+  -**R-squared**: Measures how closely the portfolio's returns match the S&P 500's returns.<br>
 **PDF Report Generation**: Compiles the analysis into a detailed report, saved as a PDF.<br>
 
 ## Dependencies
